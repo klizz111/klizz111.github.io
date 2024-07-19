@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机涩图</title>
+</head>
+<body>
+    <button id="but" type="button">随机图片</button>
+    <div>
+        <img id="imgs" src="" alt="随机图片"></img> 
+    </div>
+    
+</body>
+
+<script>
+    let img = document.getElementById("imgs");
+    let but = document.getElementById("but");
+    let path = "https://moe.jitsu.top/r18/?float=";
+    img.src = path+'1';
+    but.onclick = function() {
+        img.src = "";
+        let random = Math.floor(Math.random()*1000);
+        img.src = path+random;
+    }
+</script>
+
+<style>
+    body {
+        text-align: center;
+    }
+    div {
+        margin: 0 auto;
+        height: 100%;
+    }
+    img {
+        width: 50%;
+        height: 50%;
+    }
+</style>
+
+</html>
