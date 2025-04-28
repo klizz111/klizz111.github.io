@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a5 as n}from"./chunks/framework.CuP63nti.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"css.md","filePath":"css.md"}'),h={name:"css.md"},k=n("",1),p=[k];function l(t,e,E,r,d,F){return a(),i("div",null,p)}const C=s(h,[["render",l]]);export{y as __pageData,C as default};
